@@ -9,10 +9,11 @@ class B extends React.Component{
         )
     }
 }
-
+//log
 const mapStateToProps = (state) =>{
     console.log(state)
     return state
 }
+
 
 export default connect(mapStateToProps)(B)
